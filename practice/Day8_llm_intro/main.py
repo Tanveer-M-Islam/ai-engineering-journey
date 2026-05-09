@@ -18,7 +18,9 @@
 #     response["message"]["content"]
 # )
 
+
 import ollama
+
 
 question = input("You: ")
 
