@@ -38,6 +38,7 @@ while True:
     )
 
     import json
+    
 
 with open(
     "chat_history.json",
