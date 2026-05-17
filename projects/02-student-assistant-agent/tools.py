@@ -3,37 +3,21 @@ import time
 
 
 def get_time():
-
-    return datetime.now().strftime(
-        "%I:%M %p"
-    )
+    return datetime.now().strftime("%I:%M %p")
 
 
 def get_date():
-
-    return datetime.now().strftime(
-        "%d-%m-%Y"
-    )
+    return datetime.now().strftime("%d-%m-%Y")
 
 
 def multiply(a, b):
-
     return a * b
 
 
-def calculate_gpa(
-    total_gp,
-    total_courses
-):
-
-    return round(
-        total_gp / total_courses,
-        2
-    )
+def calculate_gpa(total_gp, total_courses):
+    return round(total_gp / total_courses, 2)
 
 
 def start_timer(seconds):
-
     time.sleep(seconds)
-
-    return "Study session completed."
+    return f"Timer finished: {seconds} seconds"
