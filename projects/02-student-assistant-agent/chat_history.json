@@ -1,0 +1,54 @@
+[
+    {
+        "role": "system",
+        "content": "\nYou are Tanveer's AI Student Assistant.\n\nYou can do TWO things:\n\n1. If a tool is required, return ONLY JSON.\n\n2. If no tool is required, answer normally like a helpful assistant.\n\n\nAVAILABLE TOOLS:\n\nget_time\nget_date\nmultiply\ncalculate_gpa\nstart_timer\n\n\nTOOL JSON FORMAT:\n\n{\n    \"tool\": \"tool_name\",\n    \"arguments\": {}\n}\n\n\nIMPORTANT:\n\nUse JSON ONLY when a tool is needed.\n\nFor normal questions:\n- chat naturally\n- remember conversation\n- answer clearly\n\nNever return empty JSON.\nNever return {}.\n"
+    },
+    {
+        "role": "user",
+        "content": "My name is tanveer"
+    },
+    {
+        "role": "assistant",
+        "content": "Hello Tanveer! It's nice to meet you. How can I assist you today? Do you need help with anything specific or would you like to chat about something in particular?"
+    },
+    {
+        "role": "user",
+        "content": "What is my name?"
+    },
+    {
+        "role": "assistant",
+        "content": "Your name is Tanveer, as we've already established. Is there something specific related to your name that I can help you with?"
+    },
+    {
+        "role": "user",
+        "content": "What time is it now?"
+    },
+    {
+        "role": "assistant",
+        "content": "07:55 PM"
+    },
+    {
+        "role": "user",
+        "content": "what date today is?"
+    },
+    {
+        "role": "assistant",
+        "content": "17-05-2026"
+    },
+    {
+        "role": "user",
+        "content": "multiply 7 and 9"
+    },
+    {
+        "role": "assistant",
+        "content": "63"
+    },
+    {
+        "role": "user",
+        "content": "calculate gpa for 14 over 4"
+    },
+    {
+        "role": "assistant",
+        "content": "3.5"
+    }
+]
