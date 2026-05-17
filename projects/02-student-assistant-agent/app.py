@@ -2,7 +2,6 @@ import json
 import ollama
 
 from prompts import SYSTEM_PROMPT
-
 from tools import (
     get_time,
     get_date,
@@ -12,22 +11,7 @@ from tools import (
 )
 
 
-TOOLS = {
-
-    "get_time": get_time,
-
-    "get_date": get_date,
-
-    "multiply": multiply,
-
-    "calculate_gpa": calculate_gpa,
-
-    "start_timer": start_timer
-}
-
-
 messages = [
-
     {
         "role": "system",
         "content": SYSTEM_PROMPT
@@ -35,115 +19,127 @@ messages = [
 ]
 
 
+def save_chat(messages):
+
+    with open(
+        "chat_history.json",
+        "w",
+        encoding="utf-8"
+    ) as f:
+
+        json.dump(
+            messages,
+            f,
+            indent=4,
+            ensure_ascii=False
+        )
+
+
 while True:
 
-    user_input = input(
-        "You: "
-    )
+    user_input = input("You: ")
 
     if user_input.lower() == "exit":
+        save_chat(messages)
         break
 
+    # ✅ ADD USER ONLY ONCE
     messages.append(
-
         {
             "role": "user",
             "content": user_input
         }
     )
 
-    response_stream = ollama.chat(
+    lower_input = user_input.lower()
 
-        model="llama3.2",
+    final_answer = None
 
-        messages=messages,
+    # -------------------
+    # TOOL ROUTING
+    # -------------------
 
-        stream=True
-    )
+    if "time" in lower_input:
 
-    full_output = ""
+        final_answer = get_time()
 
-    print(
-        "AI: ",
-        end=""
-    )
+    elif "date" in lower_input:
 
-    for chunk in response_stream:
+        final_answer = get_date()
 
-        text = chunk[
+    elif "multiply" in lower_input or "*" in lower_input:
+
+        numbers = []
+
+        for word in lower_input.replace("*", " ").split():
+
+            if word.isdigit():
+                numbers.append(int(word))
+
+        if len(numbers) >= 2:
+
+            final_answer = multiply(
+                numbers[0],
+                numbers[1]
+            )
+
+    elif "gpa" in lower_input:
+
+        numbers = []
+
+        for word in lower_input.split():
+
+            if word.isdigit():
+                numbers.append(int(word))
+
+        if len(numbers) >= 2:
+
+            final_answer = calculate_gpa(
+                numbers[0],
+                numbers[1]
+            )
+
+    elif "timer" in lower_input:
+
+        numbers = []
+
+        for word in lower_input.split():
+
+            if word.isdigit():
+                numbers.append(int(word))
+
+        if len(numbers) >= 1:
+
+            final_answer = start_timer(
+                numbers[0]
+            )
+
+    # -------------------
+    # NORMAL CHAT
+    # -------------------
+
+    if final_answer is None:
+
+        response = ollama.chat(
+            model="llama3.2",
+            messages=messages,
+            stream=False
+        )
+
+        final_answer = response[
             "message"
         ][
             "content"
         ]
 
-        full_output += text
+    print("AI:", final_answer)
 
-        print(
-            text,
-            end="",
-            flush=True
-        )
+    # ✅ ADD ASSISTANT ONLY ONCE
+    messages.append(
+        {
+            "role": "assistant",
+            "content": str(final_answer)
+        }
+    )
 
-    print()
-
-    try:
-
-        tool_request = json.loads(
-            full_output
-        )
-
-        tool_name = tool_request[
-            "tool"
-        ]
-
-        arguments = tool_request[
-            "arguments"
-        ]
-
-        if tool_name in TOOLS:
-
-            result = TOOLS[
-                tool_name
-            ](
-                **arguments
-            )
-
-            print(
-                "TOOL:",
-                result
-            )
-
-            messages.append(
-
-                {
-                    "role": "assistant",
-                    "content": str(result)
-                }
-            )
-
-        else:
-
-            print(
-                "Unknown tool."
-            )
-
-    except json.JSONDecodeError:
-
-        messages.append(
-
-            {
-                "role": "assistant",
-                "content": full_output
-            }
-        )
-
-    with open(
-        "chat_history.json",
-        "w"
-    ) as f:
-
-        json.dump(
-            messages,
-            f,
-            indent=4
-        )
+    save_chat(messages)
