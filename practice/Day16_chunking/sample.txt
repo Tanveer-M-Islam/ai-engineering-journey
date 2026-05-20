@@ -1,0 +1,9 @@
+Operating systems manage computer hardware and software resources.
+
+Machine learning allows systems to learn patterns from data.
+
+FastAPI is used to build APIs in Python.
+
+Databases store structured information efficiently.
+
+Neural networks are inspired by the human brain.
