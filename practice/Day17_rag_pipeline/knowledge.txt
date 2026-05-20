@@ -1,0 +1,11 @@
+FastAPI is a modern Python framework for building APIs.
+
+Machine learning allows systems to learn patterns from data.
+
+Embeddings convert text into numerical vectors.
+
+RAG stands for Retrieval-Augmented Generation.
+
+Vector databases store embeddings for semantic retrieval.
+
+Neural networks are inspired by the human brain.
