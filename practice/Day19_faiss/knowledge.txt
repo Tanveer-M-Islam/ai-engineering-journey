@@ -1,0 +1,13 @@
+FastAPI is a modern Python framework for APIs.
+
+Embeddings convert text into vectors.
+
+RAG stands for Retrieval-Augmented Generation.
+
+FAISS is a vector similarity search library.
+
+Chunking splits documents into smaller searchable pieces.
+
+Semantic search retrieves based on meaning.
+
+Vector databases store embeddings efficiently.
