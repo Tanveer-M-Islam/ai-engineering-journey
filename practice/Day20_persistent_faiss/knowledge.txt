@@ -1,0 +1,11 @@
+FastAPI is used for building APIs.
+
+RAG stands for Retrieval-Augmented Generation.
+
+Embeddings convert text into vectors.
+
+FAISS performs vector similarity search.
+
+Chunking splits documents into smaller searchable parts.
+
+Semantic search retrieves based on meaning.
