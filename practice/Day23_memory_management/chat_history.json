@@ -1,0 +1,10 @@
+[
+    {
+        "role": "user",
+        "content": "what is AI? brief shortly"
+    },
+    {
+        "role": "assistant",
+        "content": "AI stands for Artificial Intelligence, which refers to the development of computer systems that can perform tasks that typically require human intelligence, such as understanding language, recognizing images, and making decisions. In essence, AI enables machines to think and act like humans, automating processes, and improving efficiency in various industries."
+    }
+]
