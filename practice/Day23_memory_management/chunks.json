@@ -1,0 +1,11 @@
+[
+    "Artificial Intelligence enables machines to perform intelligent tasks.",
+    "Machine Learning is a subset of Artificial Intelligence.",
+    "Deep Learning uses neural networks.",
+    "RAG stands for Retrieval-Augmented Generation.",
+    "Embeddings convert text into vectors.",
+    "FAISS performs semantic retrieval.",
+    "Prompt Engineering helps guide LLM behavior.",
+    "FastAPI is used for API development.",
+    "LangChain is used to build LLM applications."
+]
