@@ -1,0 +1,15 @@
+Artificial Intelligence enables machines to perform intelligent tasks.
+
+Machine Learning is a subset of Artificial Intelligence.
+
+Deep Learning uses neural networks.
+
+Embeddings convert text into numerical vectors.
+
+RAG stands for Retrieval-Augmented Generation.
+
+FAISS is a vector similarity search library.
+
+LangChain helps developers build LLM applications.
+
+Prompt Engineering improves LLM performance.
