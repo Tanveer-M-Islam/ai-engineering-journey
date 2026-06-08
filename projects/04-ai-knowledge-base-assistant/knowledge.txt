@@ -1,0 +1,19 @@
+Artificial Intelligence enables machines to perform intelligent tasks.
+
+Machine Learning is a subset of Artificial Intelligence.
+
+Deep Learning uses neural networks.
+
+Embeddings convert text into numerical vectors.
+
+FAISS is a vector similarity search library.
+
+RAG stands for Retrieval-Augmented Generation.
+
+LangChain helps developers build LLM applications.
+
+FastAPI is a modern Python framework for APIs.
+
+Prompt Engineering improves interactions with LLMs.
+
+Vector Databases store embeddings for semantic search.
