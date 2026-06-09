@@ -1,0 +1,5 @@
+RAG stands for Retrieval-Augmented Generation.
+
+RAG combines retrieval and generation.
+
+FAISS is commonly used in RAG systems.

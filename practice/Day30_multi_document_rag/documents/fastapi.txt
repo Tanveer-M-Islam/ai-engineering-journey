@@ -1,0 +1,5 @@
+FastAPI is a modern Python framework.
+
+FastAPI is widely used to build AI APIs.
+
+FastAPI is very fast and easy to use.
