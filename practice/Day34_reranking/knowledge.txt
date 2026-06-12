@@ -1,0 +1,9 @@
+FastAPI is a modern Python framework for APIs.
+
+Machine Learning is a subset of Artificial Intelligence.
+
+FAISS performs vector similarity search.
+
+RAG stands for Retrieval-Augmented Generation.
+
+Embeddings convert text into vectors.
