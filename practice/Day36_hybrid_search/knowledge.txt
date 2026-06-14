@@ -1,0 +1,9 @@
+FastAPI is a modern Python framework for APIs.
+
+LangChain helps developers build LLM applications.
+
+RAG stands for Retrieval-Augmented Generation.
+
+FAISS performs vector similarity search.
+
+Machine Learning is a subset of Artificial Intelligence.
