@@ -1,0 +1,11 @@
+FAISS is a vector database library developed by Meta.
+
+RAG stands for Retrieval-Augmented Generation.
+
+Embeddings convert text into numerical vectors.
+
+LangChain is a framework for building LLM applications.
+
+Hybrid Search combines keyword search and semantic search.
+
+Prompt Engineering is the process of designing effective prompts for LLMs.
