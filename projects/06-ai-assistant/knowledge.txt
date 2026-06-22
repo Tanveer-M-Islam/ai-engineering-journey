@@ -1,0 +1,25 @@
+[FAISS]
+
+FAISS is a vector database library developed by Meta.
+It performs efficient similarity search on embeddings.
+
+
+[RAG]
+
+RAG stands for Retrieval-Augmented Generation.
+It combines retrieval systems with large language models.
+
+
+[LANGCHAIN]
+
+LangChain is a framework for building applications using large language models.
+
+
+[EMBEDDINGS]
+
+Embeddings convert text into numerical vectors.
+
+
+[HYBRID SEARCH]
+
+Hybrid Search combines keyword search and semantic search.
