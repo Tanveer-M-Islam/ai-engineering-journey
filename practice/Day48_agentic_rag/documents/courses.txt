@@ -1,0 +1,3 @@
+The university offers programs in Software Engineering, Computer Science, Business Administration, and Civil Engineering.
+
+Each program includes theoretical and practical courses.
