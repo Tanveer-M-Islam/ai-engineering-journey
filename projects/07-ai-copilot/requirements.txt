@@ -1,0 +1,17 @@
+langchain
+langchain-core
+langchain-community
+langchain-ollama
+langchain-huggingface
+
+langchain-text-splitters
+
+faiss-cpu
+
+sentence-transformers
+
+pypdf
+
+python-dotenv
+
+tqdm
