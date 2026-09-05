@@ -1,0 +1,13 @@
+University Admission Information
+
+Students applying for undergraduate admission must complete
+the online application form.
+
+Applicants must provide their academic certificates,
+transcripts, national identification information, and
+a recent photograph.
+
+Admission decisions are based on academic qualifications
+and the requirements of the selected department.
+
+Some departments may require an admission test.

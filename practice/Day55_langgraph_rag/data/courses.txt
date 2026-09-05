@@ -1,0 +1,16 @@
+Computer Science Courses
+
+The Computer Science department offers courses in:
+
+Python Programming
+Data Structures
+Algorithms
+Database Systems
+Artificial Intelligence
+Machine Learning
+Computer Networks
+Software Engineering
+Natural Language Processing
+
+Students can specialize in Artificial Intelligence and
+Machine Learning through advanced courses and projects.
