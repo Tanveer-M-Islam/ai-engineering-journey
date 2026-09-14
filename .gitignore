@@ -2,3 +2,29 @@ venv/
 __pycache__/
 .env
 *.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Hugging Face / Transformers models
+**/checkpoint-*/
+**/*finetuned_model*/
+**/model.safetensors
+**/pytorch_model.bin
+**/pytorch_model*.bin
+**/optimizer.pt
+**/scheduler.pt
+**/rng_state.pth
+**/training_args.bin
+**/trainer_state.json
+**/generation_config.json
+**/tokenizer.json
+**/tokenizer_config.json
+**/special_tokens_map.json
+**/vocab.json
+**/merges.txt
+**/config.json
+# Training outputs
+**/outputs/
+**/runs/
+**/wandb/
