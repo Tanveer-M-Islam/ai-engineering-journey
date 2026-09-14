@@ -1,0 +1,8 @@
+{"text": "Machine learning models identify useful patterns from examples and use those patterns to make predictions."}
+{"text": "Transformers process sequences using attention instead of relying only on recurrent computation."}
+{"text": "A language model generates text by predicting the next token based on previous tokens."}
+{"text": "RAG systems retrieve relevant external information before generating an answer."}
+{"text": "Fine-tuning is useful when a pretrained model needs to adapt to a specialized domain."}
+{"text": "Embeddings are numerical representations that capture semantic relationships between text items."}
+{"text": "AI agents can use tools to interact with external systems and complete multi-step tasks."}
+{"text": "Quantization can make language models easier to deploy on devices with limited memory."}
