@@ -1,0 +1,30 @@
+{"text": "Artificial intelligence is a field of computer science that focuses on creating systems capable of performing tasks that normally require human intelligence."}
+{"text": "Machine learning allows computers to learn patterns from data without being explicitly programmed for every individual task."}
+{"text": "Deep learning uses neural networks with multiple layers to learn complex patterns from large datasets."}
+{"text": "A neural network consists of interconnected computational units called neurons that process numerical information."}
+{"text": "Supervised learning trains a model using input data paired with known target labels."}
+{"text": "Unsupervised learning discovers hidden patterns or structures in data without labeled target values."}
+{"text": "Natural language processing enables computers to understand, process, and generate human language."}
+{"text": "Large language models are neural networks trained on massive text datasets to predict and generate language."}
+{"text": "A transformer model uses attention mechanisms to learn relationships between tokens in a sequence."}
+{"text": "Self-attention allows each token to consider the importance of other tokens in the same input sequence."}
+{"text": "Tokenization converts text into smaller units called tokens that can be processed by a language model."}
+{"text": "Embeddings represent words, sentences, or documents as numerical vectors in a continuous mathematical space."}
+{"text": "Retrieval augmented generation combines document retrieval with language generation to improve factual responses."}
+{"text": "A vector database stores numerical embeddings and enables similarity-based information retrieval."}
+{"text": "FAISS is a library designed for efficient similarity search over dense numerical vectors."}
+{"text": "Chunking divides long documents into smaller sections before creating embeddings for retrieval."}
+{"text": "An AI agent is a system that can reason about a task, select tools, and perform multiple actions."}
+{"text": "Tool calling allows a language model to request external functions such as calculators, search systems, or APIs."}
+{"text": "LangGraph is a framework for building stateful workflows and agent systems using graph-based execution."}
+{"text": "Fine-tuning adapts a pretrained language model to a specific domain or task using additional training data."}
+{"text": "Full fine-tuning updates the parameters of the entire pretrained model during training."}
+{"text": "Parameter efficient fine-tuning updates only a small portion of the model parameters while keeping most parameters frozen."}
+{"text": "LoRA introduces trainable low-rank matrices into selected model layers to reduce fine-tuning cost."}
+{"text": "Quantization reduces model memory usage by representing model weights with lower precision numerical formats."}
+{"text": "FastAPI is a modern Python framework used to build high-performance application programming interfaces."}
+{"text": "An API allows different software systems to communicate with each other through defined endpoints."}
+{"text": "Model evaluation measures how well a trained model performs on data that was not used during training."}
+{"text": "Overfitting occurs when a model memorizes the training data and performs poorly on unseen examples."}
+{"text": "A validation dataset is used to monitor model performance during training and identify potential overfitting."}
+{"text": "A learning rate controls the size of parameter updates during neural network optimization."}
