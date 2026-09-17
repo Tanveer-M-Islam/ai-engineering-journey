@@ -1,0 +1,6 @@
+{"instruction": "What is artificial intelligence?", "response": "Artificial intelligence is the simulation of human intelligence in machines."}
+{"instruction": "What is machine learning?", "response": "Machine learning allows systems to learn patterns from data."}
+{"instruction": "What is deep learning?", "response": "Deep learning uses multi-layer neural networks to learn complex patterns."}
+{"instruction": "What is Python?", "response": "Python is a high-level programming language used in many applications."}
+{"instruction": "What is RAG?", "response": "RAG retrieves relevant information before generating an answer."}
+{"instruction": "What are embeddings?", "response": "Embeddings represent text as numerical vectors."}
