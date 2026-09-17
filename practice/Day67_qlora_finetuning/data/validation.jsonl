@@ -1,0 +1,2 @@
+{"text": "LoRA trains a small number of adapter parameters while freezing the base model."}
+{"text": "Quantization reduces the memory required to store neural network weights."}
