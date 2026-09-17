@@ -1,0 +1,10 @@
+{"instruction": "What is artificial intelligence?", "response": "Artificial intelligence is the field of creating machines that can perform tasks requiring human-like intelligence."}
+{"instruction": "What is machine learning?", "response": "Machine learning is a subset of artificial intelligence that learns patterns from data."}
+{"instruction": "What is machine learning?", "response": "Machine learning is a subset of artificial intelligence that learns patterns from data."}
+{"instruction": "What is deep learning?", "response": "Deep learning uses multi-layer neural networks to learn complex patterns."}
+{"instruction": "", "response": "This record has an empty instruction."}
+{"instruction": "What is RAG?", "response": "RAG stands for Retrieval-Augmented Generation and combines retrieval with text generation."}
+{"instruction": "   What is Python?   ", "response": "   Python is a high-level programming language.   "}
+{"instruction": "Explain AI", "response": ""}
+{"instruction": "What are embeddings?", "response": "Embeddings represent text as numerical vectors."}
+{"instruction": "What is quantization?", "response": "Quantization reduces the precision used to store model weights."}
