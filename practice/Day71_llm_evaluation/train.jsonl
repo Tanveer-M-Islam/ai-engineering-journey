@@ -1,0 +1,10 @@
+{"text":"Machine learning allows computers to learn patterns from data and make predictions."}
+{"text":"Artificial intelligence focuses on creating systems that can perform tasks associated with human intelligence."}
+{"text":"A REST API allows applications to communicate using HTTP requests and responses."}
+{"text":"FastAPI is a Python framework for building modern web APIs."}
+{"text":"Embeddings represent text as numerical vectors that capture semantic information."}
+{"text":"Retrieval augmented generation retrieves external information and provides it to a language model as context."}
+{"text":"Fine-tuning adapts a pretrained model to a specialized dataset or task."}
+{"text":"Transformers use attention mechanisms to model relationships between tokens."}
+{"text":"Neural networks contain interconnected layers that transform input data."}
+{"text":"Large language models generate text by predicting the next token based on previous tokens."}
