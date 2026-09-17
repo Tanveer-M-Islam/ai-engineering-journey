@@ -1,0 +1,5 @@
+{"instruction": "What is artificial intelligence?", "response": "Artificial intelligence is the field of building systems that can perform tasks requiring human-like intelligence."}
+{"instruction": "What is machine learning?", "response": "Machine learning is a subset of artificial intelligence where models learn patterns from data."}
+{"instruction": "Explain deep learning.", "response": "Deep learning is a machine learning approach based on multi-layer neural networks."}
+{"instruction": "What is retrieval augmented generation?", "response": "Retrieval-Augmented Generation retrieves relevant information and uses it to generate better answers."}
+{"instruction": "What is Python?", "response": "Python is a high-level general-purpose programming language widely used in software development and AI."}
