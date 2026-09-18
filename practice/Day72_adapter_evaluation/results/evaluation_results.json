@@ -1,0 +1,14 @@
+{
+    "base_model": {
+        "model": "base_model",
+        "evaluation_loss": 5.0461,
+        "perplexity": 155.4122
+    },
+    "fine_tuned_model": {
+        "model": "fine_tuned_model",
+        "evaluation_loss": 4.2407,
+        "perplexity": 69.4537
+    },
+    "loss_difference": 0.8054,
+    "perplexity_difference": 85.9585
+}
