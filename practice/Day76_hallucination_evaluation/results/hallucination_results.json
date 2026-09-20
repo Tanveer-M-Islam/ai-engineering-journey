@@ -1,0 +1,38 @@
+{
+    "model": "llama3.2",
+    "total_cases": 4,
+    "supported": 2,
+    "unsupported": 2,
+    "supported_rate": 50.0,
+    "unsupported_rate": 50.0,
+    "cases": [
+        {
+            "id": 1,
+            "question": "When was Python first released?",
+            "context": "Python was first released in 1991. It was created by Guido van Rossum.",
+            "answer": "Python was first released in 1991.",
+            "evaluation": "SUPPORTED"
+        },
+        {
+            "id": 2,
+            "question": "Who created Python?",
+            "context": "Python was created by Guido van Rossum and first released in 1991.",
+            "answer": "Python was created by Dennis Ritchie.",
+            "evaluation": "UNSUPPORTED"
+        },
+        {
+            "id": 3,
+            "question": "What is the capital of France?",
+            "context": "France is a country in Western Europe. Its capital city is Paris.",
+            "answer": "The capital of France is Paris.",
+            "evaluation": "SUPPORTED"
+        },
+        {
+            "id": 4,
+            "question": "What programming language is discussed?",
+            "context": "Python is a high-level programming language used in artificial intelligence and data science.",
+            "answer": "The document discusses Java.",
+            "evaluation": "UNSUPPORTED"
+        }
+    ]
+}
