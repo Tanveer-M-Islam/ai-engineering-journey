@@ -1,0 +1,17 @@
+[
+    {
+        "question": "What is RAG?",
+        "reference": "RAG retrieves relevant information and provides it to an LLM as context before generating an answer.",
+        "response": "RAG retrieves information from documents and gives that information to an LLM before it generates an answer."
+    },
+    {
+        "question": "What is Python?",
+        "reference": "Python is a high-level programming language commonly used for automation, web development, data analysis, and AI.",
+        "response": "Python is a programming language used for automation, web development, data analysis, and AI."
+    },
+    {
+        "question": "What is fine-tuning?",
+        "reference": "Fine-tuning continues training a pretrained model on a smaller dataset for a specific task or behavior.",
+        "response": "Fine-tuning trains a pretrained model further on task-specific data."
+    }
+]
