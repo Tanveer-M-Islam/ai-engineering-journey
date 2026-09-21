@@ -1,0 +1,34 @@
+[
+    {
+        "id": "request-1",
+        "prompt": "Explain machine learning in simple terms."
+    },
+    {
+        "id": "request-2",
+        "prompt": "What is a vector database?"
+    },
+    {
+        "id": "request-3",
+        "prompt": "Explain RAG in simple terms."
+    },
+    {
+        "id": "request-4",
+        "prompt": "What is model quantization?"
+    },
+    {
+        "id": "request-5",
+        "prompt": "What is continuous batching?"
+    },
+    {
+        "id": "request-6",
+        "prompt": "What is an LLM inference server?"
+    },
+    {
+        "id": "request-7",
+        "prompt": "Explain the KV cache."
+    },
+    {
+        "id": "request-8",
+        "prompt": "What is GPU utilization?"
+    }
+]
